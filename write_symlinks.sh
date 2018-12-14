@@ -1,19 +1,17 @@
 #!/bin/sh
 
 GIT_ROOT=$(git rev-parse --show-toplevel)
-
-mkdir -p $GIT_ROOT/config
-
 CONF=$GIT_ROOT/config/
 
 # Vim Configuration
-cp $HOME/.vimrc $CONF
-cp -rf $HOME/.vim/ $CONF
+ln -sf $CONF/.vimrc $HOME/.vimrc
+ln -sf $CONF/.vim $HOME/.vim
 
 # Tmux Configuration
-cp $HOME/.tmux.conf $CONF
+ln -sf $CONF/.tmux.conf $HOME/.tmux.conf
 
 # Zsh Configuration
-cp $HOME/.zshrc $CONF
+ln -sf $CONF/.zshrc $HOME/.zshrc
 
 # TODO: I3 Configuration
+
