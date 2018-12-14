@@ -37,3 +37,7 @@ autocmd BufWritePre * %s/\s\+$//e
 
 " Map our leader key to space
 let mapleader=" "
+
+" Hybrid Line Numbers
+set number relativenumber
+set nu rnu
