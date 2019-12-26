@@ -14,3 +14,5 @@ ln -sf "${CONF}/.tmux.conf" "${HOME}/.tmux.conf"
 ln -sf "${CONF}/.zshrc" "${HOME}/.zshrc"
 
 ln -sf "${CONF}/.i3" "${HOME}/.i3"
+
+ln -sf "${CONF}/.myscripts" "${HOME}/.myscripts"

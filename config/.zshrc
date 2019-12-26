@@ -67,6 +67,7 @@ alias tmuxconfig="$EDITOR ~/.tmux.conf"
 
 # Use local binaries (but do not override system)
 export PATH=$PATH:$HOME/bin
+export PATH=$PATH:/home/dan/emsdk:/home/dan/emsdk/upstream/emscripten:/home/dan/emsdk/node/12.9.1_64bit/bin # emcc :/
 
 # From the zsh jump plugin
 alias jmp="jump"
@@ -77,3 +78,4 @@ if [ -f $HOME/.work_zshrc ]; then
 fi
 
 alias tmux="tmux -2"
+export TERM=xterm-256color
