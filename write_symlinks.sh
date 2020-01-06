@@ -4,7 +4,7 @@ GIT_ROOT=$(git rev-parse --show-toplevel)
 CONF="${GIT_ROOT}/config"
 
 # Vim Configuration
-ln -sf "${CONF}/.vimrc" "${HOME}/.vimrc"
+ln -sf "${CONF}/.vim/.vimrc" "${HOME}/.vimrc"
 ln -sf "${CONF}/.vim" "${HOME}/.vim"
 
 # Tmux Configuration
