@@ -1,1 +1,0 @@
-/home/dan/conf/config/.i3
