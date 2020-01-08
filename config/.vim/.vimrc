@@ -39,5 +39,4 @@ autocmd BufWritePre * %s/\s\+$//e
 let mapleader=" "
 
 " Hybrid Line Numbers
-set number relativenumber
-set nu rnu
+set number
